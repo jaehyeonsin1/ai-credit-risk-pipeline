@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Python virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Generated pipeline data
+data/processed/*
+!data/processed/.gitkeep
+
+data/output/*
+!data/output/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
